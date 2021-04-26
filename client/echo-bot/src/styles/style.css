@@ -1,0 +1,55 @@
+.header{
+    background-color: wheat;
+    display: flex;
+    padding: 10px;
+}
+
+.header h1{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.messageForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.test{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.test textarea{
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    resize: none;
+}
+
+.test textarea:focus{
+    outline: none !important;
+}
+
+.bot-message,
+.myMessage{
+    padding: 1em;
+    margin-right: 0px;
+    border-radius: 2em 2em 0px;
+    background: rgb(187 142 125);
+    color: rgb(217, 212, 212);
+    border: 0px;
+}
+
+.bot-message,
+.myMessage{
+    max-width: 90px;
+}
+
+.myMessage{
+    align-self: flex-end;
+}
