@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MyMessage({message}) {
     return (
-        <div className="myMessage">
+        <div className="my-message">
             <span>{message}</span>
         </div>
     )

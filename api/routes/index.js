@@ -10,7 +10,7 @@ router.post('/', function (req, res, next) {
     }
     setTimeout(() => {
         res.status(200).json({message: responseBack});
-    }, 2000);
+    }, 1000);
 
 });
 
